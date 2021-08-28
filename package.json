@@ -5,17 +5,14 @@
   "main": "middleware.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/risecorejs/api-docsjs.git"
+    "url": "git+https://github.com/risecorejs/api-docs.git"
   },
-  "keywords": [
-    "api-docs"
-  ],
   "author": "Amenov Abdulsalam <risecorejs@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/risecorejs/api-docsjs/issues"
+    "url": "https://github.com/risecorejs/api-docs/issues"
   },
-  "homepage": "https://github.com/risecorejs/api-docsjs#readme",
+  "homepage": "https://github.com/risecorejs/api-docs#readme",
   "devDependencies": {
     "prettier": "^2.3.2"
   }
