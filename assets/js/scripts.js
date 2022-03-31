@@ -33,11 +33,11 @@ new Vue({
             const url = parentUrl + (route.url ?? '')
             const routeDocs = route.docs
 
-            if (route.method && route.controller) {
+            if (route.method) {
               const obj = {
                 method: route.method,
                 url,
-                controller: route.controller,
+                controller: route.controller || 'customController',
                 dev: route.dev,
                 docs: routeDocs ?? {},
                 initialState: {
